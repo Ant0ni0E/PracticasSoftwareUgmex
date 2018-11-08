@@ -1,0 +1,34 @@
+CODIGOS EMMET
+docs.emmet.io/cheat-sheet/
+
+Extensiones para Visual Studio Code
+
+Angular UI
+Atom Keymap
+Tema ayu
+
+.run
+CSS formatter
+Font-awesome codes for css
+Git History
+Git Project Manager
+GitLens
+HTML CSS Support
+HTML Snippets
+HTML tag wrapper
+HTMLHint
+JavaScript (ES6) code snippets
+jQuery Code Snippets
+JSS CSS HTML formatter
+Live Sass Compiler
+Live Server
+LoremZombie
+Material Icon theme
+Tema One Dark Pro
+open in browser
+Project Manager
+Terminal
+
+ANALISIS DE LAS PAGINAS
+SIMILITUDES
+PROTOTIPO
