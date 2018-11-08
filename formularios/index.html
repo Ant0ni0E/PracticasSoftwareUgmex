@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> <!--permite que ingresemos acentos y ñs-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practica de FORMULARIOS</title>
+</head>
+<body>
+    <h2>ESTE ES UN FORMULARIO</h2>
+    <!--
+        type= tipo de input
+        name= nombre del input
+        id= identificador del input
+        placeholder= texto de ayuda
+        value= valor por defecto
+        class= clase del input
+    -->
+    <form action="pagina.html" method="GET">
+        <label for="nombre">Nombre del alumno: </label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nomre" maxlength="15" class="caja">
+        <br>
+        <br>
+        <label for="contrasenha">Escribe la contraseña: </label>
+        <input type="password" name="contrasenha" id="contrasenha">
+        <br>
+        <br>
+        <label for="Correo">Correo electrónico: </label>
+        <input type="email" name="Correo" id="Correo">
+        <br>
+        <br>
+        <label for="Fecha">Fecha: </label>
+        <input type="date" name="Fecha" id="Fecha">
+        <br>
+        <br>
+        <label for="Futbol">Futbol: </label>
+        <input type="checkbox" name="Futbol" id="Futbol">
+        <label for="Basket">Basketball: </label>
+        <input type="checkbox" name="Basket" id="Basket">
+        <br>
+        <br>
+        <!--
+            CUANDO DOS VARIABLES TIENEN EL MISMO name SE PUEDE SELECCIONAR UNA U OTRA
+                checked sirve para establecer el valor seleccionado por defecto
+        -->
+        <label for="Genero">Hombre: </label>
+        <input type="radio" name="Genero" id="Hombre" checked>
+        <label for="Genero">Mujer: </label>
+        <input type="radio" name="Genero" id="Mujer">
+        <br>
+        <br>
+        <label for="Telefono">Teléfono: </label>
+        <input type="number" name="Telefono" id="Tlefono">
+        <br>
+        <br>
+        <label for="Color">Elige un color: </label>
+        <input type="color" name="Color" id="Color">
+        <br>
+        <br>
+        <label for="Rango">Selecciona un rango: </label>
+        <input type="range" name="Rango" id="Rango">
+        <br>
+        <br>
+        <label for="Estado">Estado: </label>
+        <select name="Estado" id="Estado">
+            <option value="AGS">Aguascalientes</option>
+            <option value="BCS">Baja California Sur</option>
+            <option value="BCA">Baja California</option>
+            <option value="CDM">Ciudad de México</option>
+            <option value="OAX" selected>Oaxaca</option>
+        </select>
+        <br>
+        <br>
+        <label for="Contenido">Escribe tu duda: </label>
+        <br>
+        <textarea name="Contenido" id="Contenido" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <input type="button" name="Boton" id="Boton" value="Guardar">
+        <input type="submit" name="Enviar" id="Enviar" value="Enviar">
+        <input type="reset" name="Li,pagina">
+    </form>
+
+</body>
+</html>
